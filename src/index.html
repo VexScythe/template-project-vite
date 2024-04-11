@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
@@ -11,36 +10,9 @@
       referrerpolicy="no-referrer"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>battleship</title>
+    <title>template</title>
   </head>
   <body>
-    <div class="page__wrapper">
-      <div class="header">
-        <h1 class="title">Battleship</h1>
-      </div>
-      <div class="game__section">
-        <div class="player__board" data-playerboard-container></div>
-        <div class="computer__board" data-computerboard-container></div>
-      </div>
-      <div class="ship__container" data-ship-container>
-        <div class="carrier__preview carrier"></div>
-        <div class="battleship__preview battleship"></div>
-        <div class="cruiser__preview cruiser"></div>
-        <div class="submarine__preview submarine"></div>
-        <div class="destroyer__preview destroyer"></div>
-      </div>
-      <div class="ship__placer">
-        <input type="number" class="input__coordinate" placeholder="X: 0/9" data-coordinate-x-input />
-        <input type="number" class="input__coordinate" placeholder="Y: 0/9" data-coordinate-y-input />
-        <button class="btn">PLACE</button>
-      </div>
-      <button class="btn" data-rotate-btn>ROTATE</button>
-      <button class="btn" data-start-btn>START</button>
-      <div class="info__container">
-        <p class="info__turn">turn:</p>
-        <p class="info__general">info:</p>
-      </div>
-    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
